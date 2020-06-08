@@ -24,7 +24,7 @@ func main() {
 
 	ctx := context.Background()
 
-	filename := "📊 Weekly development breakdown"
+	filename := "📊 每周工作报告"
 	gist, err := box.GetGist(ctx, gistID)
 	if err != nil {
 		panic(err)
